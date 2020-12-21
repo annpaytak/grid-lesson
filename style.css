@@ -29,18 +29,14 @@ img {
     list-style: none;
     max-height: 40px;
     margin: 10px 0;
-
-    /* grid */
     display: grid;
     grid-template-columns: 14% 56% 20% 10%;
-    grid-template-rows: repeat(2, 50%); /*grid-template-rows: 50% 50%;*/
+    grid-template-rows: repeat(2, 50%);
     column-gap: 1px;
     row-gap: 2px;
 }
 
 .item__icon {
-    /*border-radius: 50%;*/
-
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -49,14 +45,12 @@ img {
 
 .item__title {
     font-size: 16px;
-
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
 .item__exp-date {
     opacity: .5;
-
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -80,12 +74,10 @@ img {
 
 .item__button {
     opacity: .5;
-
     grid-column-start: 4;
     grid-column-end: 5;
     justify-self: end;
 }
-
 
 @media screen and (max-width: 450px) {
     .list {
